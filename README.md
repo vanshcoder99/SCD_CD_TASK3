@@ -1,35 +1,37 @@
-# 🎯 Random Number Generator Tool – Task 03
+# 🧩 Sudoku Puzzle Solver – Task 03 | SkillCraft Technology Internship
 
 ## 📌 Overview
-This project is part of my **Software Development Internship at SkillCraft Technology**.  
-I built a **Random Number Generator Tool** using **C++**, which allows users to generate a random number within a given range.  
-It was a great opportunity to strengthen my **logic-building skills**, explore **randomness in programming**, and improve **input handling**.
+This project is part of my Software Development Internship at **SkillCraft Technology**.  
+I developed a **Sudoku Puzzle Solver in C++**, focusing on **backtracking algorithms**, **logic building**, and **clean coding practices**.
 
 ---
 
-## 🚀 Features
-- ✅ Generates random numbers within a **user-defined range**
-- ✅ **Validates user input** to ensure the minimum is less than or equal to the maximum
-- ✅ Uses **`<cstdlib>` and `<ctime>`** for randomness
-- ✅ Clean, efficient, and **beginner-friendly** code
+## ✨ Features
+- ✅ Solves any valid 9×9 Sudoku puzzle using **backtracking**.
+- ✅ Checks for valid moves before placing numbers.
+- ✅ Supports user-defined puzzles as input.
+- ✅ Displays the solved Sudoku grid in a neat format.
+- ✅ Handles invalid puzzles gracefully.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Language:** C++
-- **Libraries Used:** `<iostream>`, `<cstdlib>`, `<ctime>`
+- **Language**: C++
+- **Concepts Used**:
+  - Backtracking Algorithm
+  - 2D Arrays
+  - Functions
+  - Input Validation
+  - Loops & Conditional Statements
 
 ---
 
-## 📂 How It Works
-1. User enters the **minimum** and **maximum** range values.
-2. Program checks for **valid input** (minimum ≤ maximum).
-3. A **random seed** is initialized using the current time.
-4. A random number within the given range is generated and displayed.
+## 🚀 Learning Outcomes
+- Strengthened understanding of **recursion** and **backtracking**.
+- Learned efficient problem-solving techniques for constraint-based problems.
+- Enhanced skills in **code structuring** and **logic optimization**.
+- Gained experience in **debugging complex algorithms**.
 
 ---
 
-## 🖥️ Example Output
-Enter the minimum value: 10
-Enter the maximum value: 50
-Random Number: 37
+## 📂 Project Structure
